@@ -1,7 +1,5 @@
 package ru.yandex.practicum.gym;
 
-import com.sun.source.tree.Tree;
-
 import java.util.*;
 
 public class Timetable {
