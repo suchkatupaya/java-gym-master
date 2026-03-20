@@ -29,6 +29,14 @@ public class TimeOfDay implements Comparable<TimeOfDay> {
     }
 
     @Override
+    public String toString() {
+        return "TimeOfDay{" +
+                "hours=" + hours +
+                ", minutes=" + minutes +
+                '}';
+    }
+
+    @Override
     public int hashCode() {
         return Objects.hash(hours, minutes);
     }
